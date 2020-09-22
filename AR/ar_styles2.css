@@ -1,0 +1,35 @@
+model-viewer {
+    width: 100%;
+    height: 90%;
+--progress-bar-color:#37AAF7;
+    }
+
+#card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:100%;
+  //overflow: hidden;
+}   
+
+.button3d{
+  position: absolute;
+  font-weight: bold;
+  text-decoration: none;
+  top: 5%;
+  left: 5%;
+  transform: translate(-5%, -5%);
+  -ms-transform: translate(-5%, -5%);
+  background-color: #0cc0f1;
+  color: white;
+  font-size: 16px;
+  padding: 9px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px;
+} 
+  
+.button3d:hover {
+  background-color: #0069d9;
+  opacity:1;	
+	}  
